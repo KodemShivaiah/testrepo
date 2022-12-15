@@ -10,15 +10,28 @@
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="handler-interceptor-example-service" />
+        <module name="jdbc-example-service" />
+        <module name="exception-handler-example-service" />
+        <module name="jpa-example-service" />
+        <module name="filed-validation-example-service" />
+        <module name="filter-example-service" />
+      </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="exception-handler-example-service" target="16" />
-      <module name="filed-validation-example-service" target="16" />
-      <module name="filter-example-service" target="16" />
-      <module name="handler-interceptor-example-service" target="16" />
-      <module name="jdbc-example-service" target="16" />
-      <module name="jpa-example-service" target="16" />
-      <module name="Practice-Projects" target="16" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Practice-Projects" options="-parameters" />
+      <module name="exception-handler-example-service" options="-parameters" />
+      <module name="filed-validation-example-service" options="-parameters" />
+      <module name="filter-example-service" options="-parameters" />
+      <module name="handler-interceptor-example-service" options="-parameters" />
+      <module name="jdbc-example-service" options="-parameters" />
+      <module name="jpa-example-service" options="-parameters" />
+    </option>
   </component>
 </project>

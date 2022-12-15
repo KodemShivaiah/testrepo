@@ -27,4 +27,8 @@ public class EmployeeDetails {
     private String temporyAddress;
     private String permenentAddress;
 
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "dept_details_id")
+    private DepartmentDtls deptDetails;
+
 }
