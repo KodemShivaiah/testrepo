@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Practice-Projects.iml" filepath="$PROJECT_DIR$/Practice-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception-handler-example-service.iml" filepath="$PROJECT_DIR$/exception-handler-example-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filed-validation-example-service.iml" filepath="$PROJECT_DIR$/filed-validation-example-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter-example-service.iml" filepath="$PROJECT_DIR$/filter-example-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handler-interceptor-example-service.iml" filepath="$PROJECT_DIR$/handler-interceptor-example-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-example-service.iml" filepath="$PROJECT_DIR$/jdbc-example-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-example-service.iml" filepath="$PROJECT_DIR$/jpa-example-service.iml" />
+    </modules>
+  </component>
+</project>

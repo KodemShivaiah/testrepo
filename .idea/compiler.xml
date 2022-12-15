@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/jdbc-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/filter-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/exception-handler-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/jpa-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exception-handler-example-service" target="16" />
+      <module name="filed-validation-example-service" target="16" />
+      <module name="filter-example-service" target="16" />
+      <module name="handler-interceptor-example-service" target="16" />
+      <module name="jdbc-example-service" target="16" />
+      <module name="jpa-example-service" target="16" />
+      <module name="Practice-Projects" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
