@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/jdbc-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/filter-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/exception-handler-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/jpa-example-service/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jdbc-example-service" />
+        <module name="jpa-example-service" />
+        <module name="filter-example-service" />
+        <module name="handler-interceptor-example-service" />
+        <module name="exception-handler-example-service" />
+        <module name="filed-validation-example-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="filters-example" target="16" />
+      <module name="page-nation-service" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Practice-Projects" options="-parameters" />
+      <module name="exception-handler-example-service" options="-parameters" />
+      <module name="filed-validation-example-service" options="-parameters" />
+      <module name="filter-example-service" options="-parameters" />
+      <module name="filters-example" options="-parameters" />
+      <module name="handler-interceptor-example-service" options="-parameters" />
+      <module name="jdbc-example-service" options="-parameters" />
+      <module name="jpa-example-service" options="-parameters" />
+      <module name="page-nation-service" options="-parameters" />
+    </option>
+  </component>
+</project>
